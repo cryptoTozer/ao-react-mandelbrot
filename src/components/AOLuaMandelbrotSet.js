@@ -13,8 +13,8 @@ const MandelbrotSet = () => {
   const [wallet, setWallet] = useState(null);
 
   const [maxIterations, setMaxIterations] = useState(100);
-  const [width, setWidth] = useState(100);
-  const [height, setHeight] = useState(100);
+  const [width, setWidth] = useState(10);
+  const [height, setHeight] = useState(10);
 
   const handleConnectWallet = async () => {
     try {
