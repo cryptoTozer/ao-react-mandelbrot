@@ -19,6 +19,7 @@ const MandelbrotSet = () => {
   const handleConnectWallet = async () => {
     try {
       const arweaveWallet = new ArweaveWebWallet();
+      arweaveWallet.setUrl("arweave.app");
 
       await arweaveWallet.connect();
 
